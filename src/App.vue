@@ -3,6 +3,9 @@
     <router-view />
     <TabHolder />
     <ModalSet />
+    <router-link to="/">トップ</router-link>
+    <router-link to="/modal-sample">モーダル</router-link>
+    <router-link to="/loading-sample">ローディング</router-link>
   </div>
 </template>
 
