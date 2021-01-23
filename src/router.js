@@ -4,6 +4,7 @@ import Router from "vue-router";
 import SampleIndex from "@/views/SampleIndex";
 import ModalSample from "@/views/ModalSample";
 import LoadingSample from "@/views/LoadingSample";
+import TextAnimation from "@/views/TextAnimation";
 
 Vue.use(Router);
 
@@ -24,6 +25,11 @@ export default new Router({
       path: "/loading-sample",
       name: "loading-sample",
       component: LoadingSample,
+    },
+    {
+      path: "/text-animation",
+      name: "text-animation",
+      component: TextAnimation,
     },
   ]
 })
